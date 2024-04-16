@@ -1,0 +1,25 @@
+{
+  "name": "sit725-2024-t1-prac3",
+  "version": "1.0.0",
+  "description": "demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git https://github.com/Manjindersingh28/sit725-2024-t1-prac3.git"
+  },
+  "author": "Manjinder Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Manjindersingh28/sit725-2024-t1-prac3/issues"
+  },
+  "homepage": "https://github.com/Manjindersingh28/sit725-2024-t1-prac3#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongodb": "^6.5.0",
+    "monodb": "^1.5.1"
+  }
+}
