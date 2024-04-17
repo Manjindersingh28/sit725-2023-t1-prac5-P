@@ -10,4 +10,5 @@ const client = new MongoClient(uri, {
 });
 
 client.connect();
+console.log('connected');
 module.exports = client;

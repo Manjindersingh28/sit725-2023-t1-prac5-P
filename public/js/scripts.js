@@ -38,7 +38,7 @@ const addCards = (items) => {
 };
 
 const getcards = () => {
-    $.get('/api/cards', (response) => {
+    $.get('/api/cat', (response) => {
         if (response.statusCode == 200) {
             addCards(response.data);
         }
@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', function () {
         var subTitle = document.getElementById('subTitle').value;
         var path = document.getElementById('path').value;
         var description = document.getElementById('description').value;
-        $.post('/api/cards', {title, subTitle, link: path, description});
+        $.post('/api/cat', {title, subTitle, link: path, description});
         var modalInstance = M.Modal.getInstance(document.getElementById('modal1'));
         modalInstance.close();
     });
